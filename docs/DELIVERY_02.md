@@ -25,10 +25,30 @@ Source branch / static Pages root: `codex/portfolio`, `/`.
 
 ## Publication and limits
 
-Update publication is pending at this source commit; actual hosting state and
-ordinary URL results will be recorded after completion. Existing resume links
-remain valid because the canonical homepage URL is unchanged; no PDFs need
-another edit. This task does not modify the two private application repositories.
+Source commit `72d245495f50494bfe1fd9678572dd16ee46b8bc` was published successfully.
+Native deployment record:
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38438314822
+returned `completed / success`; GitHub Pages returned `built`.
+
+Actual ordinary retrievals:
+
+| URL path | HTTP | Response bytes | Content type |
+| --- | --- | --- | --- |
+| `/` | 200 | 17,403 | text/html; charset=utf-8 |
+| `/zh.html` | 200 | 16,469 | text/html; charset=utf-8 |
+| `/static/img/portrait.jpg` | 200 | 23,430 | image/jpeg |
+| `/static/img/projects/admissions-profile-demo.png` | 200 | 102,781 | image/png |
+| `/static/img/projects/admissions-evidence-demo.png` | 200 | 169,332 | image/png |
+
+Returned page content and the refreshed in-app browser show the new portrait,
+named workplace, two demo image links/captions and single personal footer line.
+The rendered portrait was actually observed. Local presentation screenshots are
+kept in ignored cache and are not application test results. Full-size image-link
+navigation, all devices and browser compatibility were not exhaustively tested.
+
+Existing resume links remain valid because the canonical homepage URL is
+unchanged; no PDFs need another edit. This task does not modify the two private
+application repositories.
 
 No application unit/integration/browser test suite, lint, type check, local build,
 new service startup, database operation or original project regression is run.

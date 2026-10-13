@@ -17,8 +17,11 @@
 - Bug fixes: none; this is a requested presentation/content refinement.
 - Verification: root and independent agents read the actual source portrait and
   two screenshots. Assets show no whole resume/contact fields, credentials or
-  genuine student data. The source PDF hash is unchanged. Publication results
-  will be appended only after the update actually completes.
+  genuine student data. The source PDF hash is unchanged. Source `72d2454`
+  deployment completed successfully and Pages returned `built`; both language
+  pages and all three new image URLs returned HTTP 200. Updated HTML and the
+  refreshed in-app page contain the four requested changes; rendered portrait
+  was actually viewed. See docs/DELIVERY_02.md for the publication record.
 - Tests: application unit/integration/browser test suites, lint, type checks,
   local builds and original-project regression are unexecuted. Ordinary hosted
   retrieval and viewing delivered content are recorded separately.

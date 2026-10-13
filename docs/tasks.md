@@ -2,7 +2,7 @@
 
 ## PORTFOLIO-02 — Owner's four page refinements
 
-Status: [~] In progress (2026-10-14).
+Status: Completed (2026-10-14).
 
 Goal: apply the four owner comments to both language pages: use the owner's
 resume portrait, name the Hong Kong Chinese visa service centre workplace,
@@ -22,6 +22,12 @@ whole resume is published. Actual GitHub Pages update must complete.
 Verification: source and asset visual review, hosting publication status and
 ordinary URL retrieval. Application tests/lint/type/local builds and original
 project regression remain unexecuted.
+
+Actual results: source `72d2454` published successfully; Pages returned `built`.
+Both language pages and three new image URLs returned HTTP 200. The refreshed
+in-app page shows the portrait, named workplace, two demo links/captions and
+single-line personal footer. Actual avatar rendering was viewed. Evidence and
+the unexecuted test scope are recorded in [DELIVERY_02](DELIVERY_02.md).
 
 ## PORTFOLIO-01 — Developer portfolio and resume link
 
