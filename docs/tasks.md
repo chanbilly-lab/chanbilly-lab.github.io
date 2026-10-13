@@ -2,8 +2,7 @@
 
 ## PORTFOLIO-04 — Daily contribution snake animation
 
-Status: [~] In progress (2026-10-14); first generation/publication complete,
-viewing the delivered section pending.
+Status: Completed (2026-10-14).
 
 Goal: generate the owner's contribution snake daily and display light/dark
 versions in the English/Traditional Chinese site and repository README.
@@ -24,6 +23,13 @@ native Pages publication, ordinary hosted retrieval and viewing delivered
 content. Application tests, lint, type checks and local builds are unexecuted
 (owner's instruction). Future scheduled runs and all accessibility/device cases
 cannot be claimed as observed.
+
+Actual results: first manual Snake run 38451791498 succeeded in 19 seconds and
+published two SVGs plus .nojekyll on output. Both language pages and both SVGs
+returned HTTP 200. Source 83e5283 and cache-refresh repair 774e062 each published
+successfully. The existing dark-theme browser now uses the dark SVG; its actual
+calendar and snake were viewed in the contribution section. No theme-click or
+reduced-motion test suite was run. See [DELIVERY_04](DELIVERY_04.md).
 
 Known limits: GitHub schedules may be delayed or disabled by inactivity; SVG
 delivery depends on GitHub's raw-content host. Private source-publication and

@@ -50,14 +50,25 @@ Ordinary hosted retrievals with Cache-Control: no-cache:
 | output/github-snake-dark.svg | 200 | 19,424 | image/svg+xml |
 
 Both SVGs declare width 880, height 192 and viewBox -16 -32 880 192. Both language
-responses contain the new contribution section. Browser presentation review is
-pending; no future scheduled tick is claimed as executed.
+responses contain the new contribution section. No future scheduled tick is
+claimed as executed.
 
 During content viewing, the existing browser had dark theme but the new image
 still used its light default source. The loaded image width was 880, so the SVG
-was reachable; the retained old script lacked the new selection logic. Both entry
-pages now version their updated stylesheet and script URLs to refresh these
-cached assets. This source repair requires another ordinary Pages publication.
+was reachable; this was consistent with retaining the earlier unversioned script.
+Both entry pages now version their updated stylesheet and script URLs to refresh
+these cached assets. Repair source `774e06232d2c667014017d1f34ac911637b59334`
+published successfully through Pages run:
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38452273467.
+
+After repair, ordinary retrieval still returned HTTP 200 for both pages:
+English 18,111 UTF-8 bytes; Traditional Chinese 17,226. Both responses include the
+versioned style.css and script.js references. The refreshed browser's existing
+dark theme now selects github-snake-dark.svg. Its actual rendered calendar and
+snake were viewed; a presentation screenshot is retained in ignored local cache.
+Output commit author is github-actions[bot] with GitHub noreply metadata; the
+source/repair commits use the owner's GitHub noreply identity. No old-history
+cleanup is implied by these new commits.
 
 No application unit/integration/browser test suite, lint, type check, local build
 or original-project regression is executed (owner's instruction). Running the

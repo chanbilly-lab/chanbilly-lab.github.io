@@ -15,9 +15,12 @@
 - Bug fixes: during actual content viewing, the browser retained the older
   unversioned script and loaded a light SVG on a dark page. Updated style/script
   references include a version query so visitors receive the new theme behavior.
-- Verification: official action definitions and source reviewed; Actions are
-  enabled and output did not yet exist. First generation and Pages publication
-  are pending and will be recorded in docs/DELIVERY_04.md.
+- Verification: official action definitions and source reviewed. First manual
+  Snake run 38451791498 succeeded in 19 seconds, publishing the light/dark SVGs
+  and .nojekyll to output. Both SVGs and both language pages returned HTTP 200.
+  Source 83e5283 and cache-refresh repair 774e062 each published successfully.
+  The existing dark-theme page now loads the dark SVG and its actual calendar
+  and snake were viewed. Evidence is recorded in docs/DELIVERY_04.md.
 - Tests: application unit/integration/browser test suites, lint, type checks,
   local builds and original-project regression unexecuted (owner's instruction).
   The requested animation generation is a publication operation.
