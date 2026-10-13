@@ -6,8 +6,11 @@ sidebar, project cards and theme structure are retained with new portfolio
 content. Attribution and upstream license limitations are documented in
 [THIRD_PARTY](docs/THIRD_PARTY.md).
 
-Planned canonical URL: **https://chanbilly-lab.github.io/**.
+Published canonical URL: **https://chanbilly-lab.github.io/**.
 English: `index.html`; Traditional Chinese: `zh.html`.
+
+Published on 2026-10-14. GitHub Pages returned `built`, with a completed successful
+deployment, and both language URLs returned HTTP 200. See [delivery evidence](docs/DELIVERY.md).
 
 ## Featured engineering work
 

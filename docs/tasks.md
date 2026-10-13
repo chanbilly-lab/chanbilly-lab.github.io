@@ -2,7 +2,7 @@
 
 ## PORTFOLIO-01 — Developer portfolio and resume link
 
-Status: [~] In progress.
+Status: Completed (2026-10-14).
 
 Goal: adapt the requested ZYYO homepage into an English/Traditional Chinese
 developer portfolio with two evidence-based project case studies; publish the
@@ -19,9 +19,17 @@ no template author's profile, payment codes or analytics remain in the site;
 GitHub Pages publication has an actual success result and reachable URL; three
 new IT resume copies retain their source layouts and contain a clickable link.
 
-Verification: source/document review, publication status and ordinary URL
-retrieval; visual PDF review. No application unit/integration/lint/type/build
+Verification: source/document review completed. GitHub Pages returned `built`
+and its deployment returned `success`; both language URLs returned HTTP 200.
+Three local IT resume copies contain a visible, clickable URL, retain one page,
+and preserve the original source-file hashes. Their rendered pages were actually
+viewed and show a clear link without overlap or clipping. See [delivery](DELIVERY.md).
+No application unit/integration/lint/type/build
 test suite is planned for this buildless site. Existing project tests are not
 rerun or claimed as verification of this portfolio.
+
+Known limitation: the optional account-profile website/name/bio update failed
+because the existing CLI credential lacks the `user` scope. No credential scope
+was expanded. The standalone portfolio site and resume URLs are complete.
 
 Next task: optional role-specific resume rewrite. It is not part of this task.

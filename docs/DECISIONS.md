@@ -21,13 +21,13 @@
 ## ADR-P02 — Preserve source resumes
 
 - Date: 2026-10-14.
-- Background: supplied PDFs contain personal application details and variant
-  employment titles; the request is to add a portfolio link for IT applications.
+- Background: supplied PDFs contain personal application details; the request is
+  to add a portfolio link for IT applications.
 - Decision: add a clickable verified homepage URL to separate copies of the
   English developer, Traditional Chinese developer and AI customer engineer
   resumes. Preserve the original text, title wording, page count and layout.
-- Reason: a link update does not authorize inventing career claims or resolving
-  inconsistent titles. Full PDFs need not be publicly hosted.
+- Reason: a link update should leave existing career claims intact. Full PDFs
+  need not be publicly hosted.
 - Alternatives: replace the originals or publish a resume download on the site.
   These are unnecessary for the requested link addition.
 - Impact: outputs are delivered locally after visual review; sales and game
