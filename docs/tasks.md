@@ -1,5 +1,32 @@
 # Portfolio tasks
 
+## PORTFOLIO-05 — Palette inspired by the live Zyyo reference
+
+Status: [~] In progress (2026-10-14); source edited, publication pending.
+
+Goal: adapt the requested reference's light/dark color direction to the existing
+portfolio, without changing its content, layout, portrait or contribution job.
+
+Scope: static/css/root.css, static/css/style.css, static/img/monogram.svg,
+index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md and
+docs/DELIVERY_05.md. Baseline is
+`cafc62af36ae95a7b40f0f1ca0873e699c5622f3`; working tree/index were clean.
+
+Acceptance: light blue/white and charcoal background palettes, purple actions
+and links, static multicolor hero text, coordinated neutral cards/tags/image
+frames and favicon. Both entry pages share versioned CSS links; existing theme
+selection and contribution SVG sources remain intact. Actual Pages publication
+and viewing the delivered palette must be recorded.
+
+Verification: actual reference screenshot and source colors reviewed; source/diff
+review, native hosting publication, ordinary hosted retrieval and presentation
+viewing. Application tests, lint, type checks and local builds remain unexecuted
+(owner's instruction). No automated contrast or compatibility claim is made.
+
+Known limits: all devices, forced-color/print behavior and quantified contrast
+remain unverified. Earlier private-email history and application-publication
+approval remain separate pending work. No architecture/dependency/API/DB change.
+
 ## PORTFOLIO-04 — Daily contribution snake animation
 
 Status: Completed (2026-10-14).

@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-14 — PORTFOLIO-05
+
+- Purpose: adapt the homepage palette to the owner's live zyyo.cc reference.
+- Files: static/css/root.css, static/css/style.css, static/img/monogram.svg,
+  index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md and
+  docs/DELIVERY_05.md.
+- Added: a neutral image-frame token, static multicolor hero text and solid text
+  fallbacks for forced colors/printing.
+- Changed: shared light/dark background, text, action, card, badge, tag, border,
+  shadow and favicon colors; versioned stylesheet/favicon links avoid stale
+  palette assets. Small dark accents use lighter violet and light title cyan
+  uses a deeper shade than the reference for text clarity.
+- Removed: previous green palette values from the shared theme and favicon.
+- Bug fixes: none observed; fallbacks and versioned links are preventive source
+  measures, not verified compatibility results.
+- Verification: root viewed the live reference and an independent agent read its
+  actual inline/style.css colors. Edited source is reviewed; publication and
+  delivered presentation are pending, to be recorded in docs/DELIVERY_05.md.
+- Tests: application unit/integration/browser test suites, lint, type checks,
+  local builds and original-project regression unexecuted (owner's instruction).
+- Known issues: broad device/print/forced-color behavior and quantified contrast
+  are unverified. No content/layout/application/architecture/dependency change;
+  no reference identity, images, fonts, analytics or scripts copied.
+
 ## 2026-10-14 — PORTFOLIO-04
 
 - Purpose: add the requested daily contribution snake animation.

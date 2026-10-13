@@ -23,6 +23,13 @@ remove the specified DocFlow paragraphs and describe admissions through its
 actual local synthetic demo features. Provincial reference data remains labelled
 as provincial records; the copy does not promise a ready public admissions service.
 
+The color palette now takes its direction from the owner's live reference
+[zyyo.cc](https://zyyo.cc/): pale blue/white and charcoal backgrounds, neutral
+cards, purple accents and static violet/red/cyan title gradients. Small dark-mode
+accents are lightened and the light-mode cyan is deepened for clearer text.
+Colors are shared across both languages; the existing theme/snake behavior is
+retained. See [PORTFOLIO-05](docs/DELIVERY_05.md).
+
 ## Featured engineering work
 
 - **DocFlow** — AWS event-driven document review: cases, immutable requirements,
