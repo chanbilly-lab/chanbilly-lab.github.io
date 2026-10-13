@@ -1,0 +1,10 @@
+.cache/
+.local/
+tmp/
+output/
+.env
+.env.*
+node_modules/
+__pycache__/
+*.pyc
+*.pdf

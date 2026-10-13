@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>陳志鵬 | 軟件開發</title>
+    <meta name="description" content="陳志鵬 Chen Zhi Peng 的開發作品集，展示 Python、TypeScript、Web 應用及 AWS 文件審核流程項目。">
+    <meta name="theme-color" content="#08786a">
+    <link rel="canonical" href="https://chanbilly-lab.github.io/zh.html">
+    <link rel="icon" href="./static/img/monogram.svg" type="image/svg+xml">
+    <link rel="alternate" hreflang="en" href="https://chanbilly-lab.github.io/">
+    <link rel="alternate" hreflang="zh-Hant" href="https://chanbilly-lab.github.io/zh.html">
+    <link rel="stylesheet" href="./static/css/root.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script src="./static/js/script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+    <div class="zyyo-main">
+        <aside class="zyyo-left" aria-label="個人資料與導覽">
+            <img class="logo" src="./static/img/monogram.svg" alt="CZP 名字字母標誌" width="94" height="94">
+            <div class="profile-name">陳志鵬</div>
+            <div class="profile-name-secondary" lang="en">Chen Zhi Peng</div>
+            <div class="left-div left-des">
+                <p>香港</p>
+                <p>軟件開發 · IT</p>
+            </div>
+            <div class="left-div left-tag" aria-label="核心技術">
+                <span class="left-tag-item">Python</span>
+                <span class="left-tag-item">TypeScript</span>
+                <span class="left-tag-item">Web</span>
+                <span class="left-tag-item">AWS</span>
+            </div>
+            <nav class="side-nav" aria-label="本頁導覽">
+                <a href="#projects"><span aria-hidden="true">01</span>精選項目</a>
+                <a href="#skills"><span aria-hidden="true">02</span>技術方向</a>
+                <a href="#background"><span aria-hidden="true">03</span>個人背景</a>
+                <a href="#contact"><span aria-hidden="true">04</span>GitHub 主頁</a>
+            </nav>
+            <p class="side-note">兩個開發項目。<br>展示架構、實作與<br>實際交付範圍。</p>
+        </aside>
+        <main class="zyyo-right" id="main">
+            <div class="top-bar">
+                <span class="eyebrow">開發作品集</span>
+                <div class="toolbar">
+                    <a class="language-link" href="./index.html" lang="en" hreflang="en">English</a>
+                    <button class="theme-toggle" type="button" data-theme-toggle aria-label="切換深色模式" aria-pressed="false" hidden>淺色模式</button>
+                </div>
+            </div>
+            <header class="hero">
+                <p class="role-line">香港 <span aria-hidden="true"></span> Python · TypeScript · Cloud</p>
+                <h1 class="welcome">陳志鵬。<br><span class="gradientText">軟件開發。</span></h1>
+                <p class="description">我開發 Web 應用與後端工作流程，讓複雜的任務更容易理解和執行。從釐清需求、設計介面到保留決策依據，我重視實用與可追溯的實作。</p>
+                <div class="iconContainer">
+                    <a class="button button-primary" href="#projects">查看我的項目 <span aria-hidden="true">↘</span></a>
+                    <a class="button button-secondary" href="https://github.com/chanbilly-lab">GitHub 主頁 <span aria-hidden="true">↗</span></a>
+                </div>
+            </header>
+            <section class="section" id="projects" aria-labelledby="projects-title">
+                <div class="section-heading">
+                    <h2 id="projects-title">精選項目</h2>
+                    <p>從產品需求，到具體的功能實作。</p>
+                </div>
+                <div class="projectList">
+                    <article class="projectItem">
+                        <div class="project-top"><span class="project-number">PROJECT 01</span><span class="status">開發項目</span></div>
+                        <h3>DocFlow</h3>
+                        <p>文件提交與人工審核工作流程，結合不可變更的需求版本、私有上傳及可追溯的決策記錄。</p>
+                        <div class="stack" aria-label="DocFlow 技術"><span>Python</span><span>React</span><span>TypeScript</span><span>AWS</span><span>Terraform</span></div>
+                        <a class="project-link" href="#docflow">閱讀項目詳情 <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="projectItem">
+                        <div class="project-top"><span class="project-number">PROJECT 02</span><span class="status">本機演示 · 開發中</span></div>
+                        <h3>升學諮詢智能體</h3>
+                        <p>以證據為基礎的諮詢流程：學生畫像、項目選擇、確定性資格檢查及行動計劃草案。</p>
+                        <div class="stack" aria-label="升學項目技術"><span>Vue 3</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span></div>
+                        <a class="project-link" href="#admissions">閱讀項目詳情 <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+                <article class="case-study" id="docflow" aria-labelledby="docflow-title">
+                    <p class="eyebrow case-label">01 / 文件工作流程</p>
+                    <h3 id="docflow-title">DocFlow</h3>
+                    <p class="case-summary">以 AWS Serverless 實作的文件工作流程項目，支援建立需求、記錄提交及人工審核，並保留每個決策背後的版本與操作歷史。</p>
+                    <div class="flow" aria-label="流程：定義需求、提交文件、人工審核、決策記錄">
+                        <span>定義需求</span><i aria-hidden="true">→</i><span>提交文件</span><i aria-hidden="true">→</i><span>人工審核</span><i aria-hidden="true">→</i><span>決策記錄</span>
+                    </div>
+                    <div class="case-grid">
+                        <div>
+                            <h4>實作重點</h4>
+                            <ul>
+                                <li><strong>穩定的需求依據。</strong>以不可變更的版本，將每次提交綁定至提交者當時收到的要求。</li>
+                                <li><strong>明確的文件存取。</strong>私有上傳與獨立人工審核步驟，區分「已提交」及「已批准」。</li>
+                                <li><strong>可追溯的操作。</strong>審計記錄與 Outbox 支援非同步通知；排入佇列不等於通知已送達。</li>
+                                <li><strong>前後端與基礎設施。</strong>Python 服務、React/TypeScript 介面及 Terraform 基礎設施定義。</li>
+                            </ul>
+                        </div>
+                        <div class="project-scope">
+                            <h4>交付狀態</h4>
+                            <p>前端示範使用合成資料及記憶體狀態，與後端分開。</p>
+                            <p>歷史上已完成五條有限範圍的 AWS 後端流程。其他雲端驗收尚未完成；雲端資源現已退役。</p>
+                            <p>這是開發案例，目前沒有線上服務，也不宣稱已達正式生產環境要求。</p>
+                        </div>
+                    </div>
+                    <div class="demo-gallery" aria-label="合成資料前端示範">
+                        <figure>
+                            <div class="demo-image"><img src="./static/img/projects/docflow-create-demo.png" alt="使用合成資料的 DocFlow 前端文件需求建立表單" width="460" height="510" loading="lazy"></div>
+                            <figcaption>建立需求 — 合成資料前端示範。</figcaption>
+                        </figure>
+                        <figure>
+                            <div class="demo-image"><img src="./static/img/projects/docflow-review-demo.png" alt="使用合成資料的 DocFlow 前端文件審核示例" width="304" height="686" loading="lazy"></div>
+                            <figcaption>審核介面 — 合成資料前端示範。</figcaption>
+                        </figure>
+                    </div>
+                    <p class="source-note">2026 年 9 月示範截圖：人名、機構與案件編號全部虛構。介面使用記憶體狀態，未接真實認證或上傳 API，也不是線上雲端應用。項目源碼為私有，可按需要安排程式碼講解。</p>
+                </article>
+                <article class="case-study" id="admissions" aria-labelledby="admissions-title">
+                    <p class="eyebrow case-label">02 / 有證據依據的諮詢</p>
+                    <h3 id="admissions-title">升學諮詢智能體</h3>
+                    <p class="case-summary">採用模組化單體架構，把學生資料、明確要求與來源證據串連起來，並清楚保留資料不足時的未知狀態。</p>
+                    <div class="flow" aria-label="流程：學生畫像、項目選擇、資格檢查、證據、計劃草案">
+                        <span>學生畫像</span><i aria-hidden="true">→</i><span>項目選擇</span><i aria-hidden="true">→</i><span>資格檢查</span><i aria-hidden="true">→</i><span>證據</span><i aria-hidden="true">→</i><span>計劃草案</span>
+                    </div>
+                    <div class="case-grid">
+                        <div>
+                            <h4>實作重點</h4>
+                            <ul>
+                                <li><strong>確定性判斷。</strong>明確區分 eligible、ineligible、conditional 及 unknown 四種資格結果。沒有後補政策依據時，缺少成績保持 unknown。</li>
+                                <li><strong>來源可追溯的參考資料。</strong>本機批次包含三條浙江 2026 年省級控制線，保留來源與人工複核鏈；它們不是高校錄取分數線。</li>
+                                <li><strong>明確的選擇流程。</strong>學校與專業搜尋已在源碼中替代手填識別碼，正式目錄仍為空。</li>
+                                <li><strong>實用的技術組合。</strong>Vue 3/TypeScript/Vite、Python/FastAPI/Pydantic、PostgreSQL，並保留可替換的模型介面。</li>
+                            </ul>
+                        </div>
+                        <div class="project-scope">
+                            <h4>交付狀態</h4>
+                            <p>合成 M0 核心流程已在本機走通。其他任務的源碼完成，不代表運行驗收已全部完成。</p>
+                            <p>年度更新只產生待採集與待審核請求，預設關閉。真實模型調用與公眾服務仍未啟用。</p>
+                            <p>不估算錄取機率、不自動提交申請，也不編造缺失的學校資料。</p>
+                        </div>
+                    </div>
+                    <p class="source-note">此公開案例介紹本機開發項目，不提供個人化升學建議，也不代表已有全國資料覆蓋。項目源碼為私有，可按需要安排程式碼講解。</p>
+                </article>
+            </section>
+            <section class="section" id="skills" aria-labelledby="skills-title">
+                <div class="section-heading"><h2 id="skills-title">技術方向</h2><p>以上項目中實際使用的工具。</p></div>
+                <div class="skills-grid">
+                    <div><h3>Web 介面</h3><p>TypeScript、React、Vue 3、Vite。明確的使用者操作、資料缺口提示與工作流程狀態。</p></div>
+                    <div><h3>後端與資料</h3><p>Python、FastAPI、Pydantic、PostgreSQL、API 契約。資料驗證、權限及可追溯記錄。</p></div>
+                    <div><h3>雲端與交付</h3><p>AWS Serverless、Terraform、Git。基礎設施定義、非同步作業及交付範圍記錄。</p></div>
+                </div>
+            </section>
+            <section class="section" id="background" aria-labelledby="background-title">
+                <div class="section-heading"><h2 id="background-title">個人背景</h2><p>軟件工程基礎與面向客戶的工作經驗。</p></div>
+                <div class="background-grid">
+                    <ul class="timeline">
+                        <li><time>2021.09 – 2024.06</time><h3>廈門大學</h3><p>軟件工程 · 碩士</p></li>
+                        <li><time>2017.09 – 2021.06</time><h3>重慶大學</h3><p>計算機科學與技術 · 學士</p></li>
+                        <li><time>2023.03 – 2023.09</time><h3>React Native 前端實習</h3><p>流動應用前端開發經驗。</p></li>
+                        <li><time>2024 – 至今</time><h3>客戶服務工作經驗</h3><p>理解需求、清楚溝通及跟進問題。</p></li>
+                    </ul>
+                    <div class="certifications">
+                        <h3>AWS 認證</h3>
+                        <p>AWS Certified Solutions Architect – Associate<br>AWS Certified Cloud Practitioner</p>
+                        <p class="source-note">按個人履歷所列的 2026 年認證資料。</p>
+                        <h3>我能帶給團隊的價值</h3>
+                        <p>軟件工程基礎，以及把問題轉化為清楚行動步驟的溝通經驗。我希望投身軟件開發或 IT 工作，參與實際系統的開發、問題處理與持續改善。</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contact" aria-labelledby="contact-title">
+                <div class="contact">
+                    <p class="eyebrow">了解更多</p>
+                    <h2 id="contact-title">從項目開始交流。</h2>
+                    <p>歡迎查看我的公開 GitHub 主頁。求職履歷中提供直接聯絡資料；面試時可進一步討論項目架構與實作。</p>
+                    <a class="button button-primary" href="https://github.com/chanbilly-lab">前往 GitHub 主頁 <span aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+            <footer>
+                <p>© 2026 陳志鵬 · 香港 · <a href="./index.html" lang="en">English</a></p>
+                <p>個人化改編自 ZYYO666 的 <a href="https://github.com/ZYYO666/homepage">ZYYO 主頁模板</a>。原模板版權 © 2024 ZYYO。</p>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>
