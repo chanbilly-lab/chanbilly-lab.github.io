@@ -2,7 +2,8 @@
 
 ## PORTFOLIO-04 — Daily contribution snake animation
 
-Status: [~] In progress (2026-10-14); source complete, first generation pending.
+Status: [~] In progress (2026-10-14); first generation/publication complete,
+viewing the delivered section pending.
 
 Goal: generate the owner's contribution snake daily and display light/dark
 versions in the English/Traditional Chinese site and repository README.

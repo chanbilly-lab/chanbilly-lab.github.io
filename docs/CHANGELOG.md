@@ -12,7 +12,9 @@
   image; narrow displays can scroll the calendar; reduced-motion users get a
   calendar link without the displayed animation.
 - Removed: none.
-- Bug fixes: none; this is a requested feature addition.
+- Bug fixes: during actual content viewing, the browser retained the older
+  unversioned script and loaded a light SVG on a dark page. Updated style/script
+  references include a version query so visitors receive the new theme behavior.
 - Verification: official action definitions and source reviewed; Actions are
   enabled and output did not yet exist. First generation and Pages publication
   are pending and will be recorded in docs/DELIVERY_04.md.

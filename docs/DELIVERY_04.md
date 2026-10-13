@@ -29,8 +29,35 @@ repository code, project title, resume or contact data is published by this task
 
 ## Actual publication
 
-Source upload, first manual generation, asset retrieval and Pages publication
-are pending. Record exact revision/run/HTTP results before marking complete.
+Source `83e5283232b684b72b0808c80a5e99f5af6e74ee` was pushed normally.
+The requested first manual run completed successfully in 19 seconds:
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38451791498.
+Both generation and publication steps completed successfully.
+
+Output revision: `e8ed77d7389a492ea0d1def4cd02666f1cea80e7`. Its root contains only
+github-snake.svg, github-snake-dark.svg and the publisher's .nojekyll marker.
+Native Pages deployment for source 83e5283 also completed successfully:
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38451774121.
+Pages returned built and still serves codex/portfolio at /.
+
+Ordinary hosted retrievals with Cache-Control: no-cache:
+
+| Asset | HTTP | UTF-8 response bytes | Content type |
+| --- | --- | --- | --- |
+| English `/` | 200 | 18,077 | text/html; charset=utf-8 |
+| Traditional Chinese `/zh.html` | 200 | 17,192 | text/html; charset=utf-8 |
+| output/github-snake.svg | 200 | 19,424 | image/svg+xml |
+| output/github-snake-dark.svg | 200 | 19,424 | image/svg+xml |
+
+Both SVGs declare width 880, height 192 and viewBox -16 -32 880 192. Both language
+responses contain the new contribution section. Browser presentation review is
+pending; no future scheduled tick is claimed as executed.
+
+During content viewing, the existing browser had dark theme but the new image
+still used its light default source. The loaded image width was 880, so the SVG
+was reachable; the retained old script lacked the new selection logic. Both entry
+pages now version their updated stylesheet and script URLs to refresh these
+cached assets. This source repair requires another ordinary Pages publication.
 
 No application unit/integration/browser test suite, lint, type check, local build
 or original-project regression is executed (owner's instruction). Running the
