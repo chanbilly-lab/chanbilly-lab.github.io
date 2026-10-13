@@ -15,3 +15,11 @@ skill illustrations, external analytics and personal information have been
 removed from the current portfolio. The initials mark is created for this site.
 Any included DocFlow images show the project owner's synthetic demonstration;
 their captions distinguish the demonstration from a live production service.
+
+On 2026-10-14 the owner requested removal of the template paragraph from the
+visible page footer. Repository attribution remains here and in the README and
+source comments. The initials mark is retained as the favicon; the visible avatar
+now uses the owner's unmodified resume photo, published under the owner's
+explicit page comment. Admissions screenshots are from the earlier synthetic M0
+demonstration and carry dated scope captions; they are not official admissions
+evidence or screenshots of the new search feature.

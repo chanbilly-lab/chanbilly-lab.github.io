@@ -48,6 +48,7 @@ strong { font-weight: 650; }
 }
 .zyyo-left { position: sticky; top: 2rem; align-self: start; min-width: 0; }
 .logo { width: 94px; height: 94px; margin-bottom: 1.45rem; border-radius: 24px; }
+.profile-photo { object-fit: cover; object-position: center 22%; background: #fff; }
 .profile-name { margin-bottom: .2rem; font-size: 1.25rem; font-weight: 700; line-height: 1.35; }
 .profile-name-secondary { color: var(--muted_color); font-size: .9rem; }
 .left-div { margin-top: 1.5rem; }
@@ -163,6 +164,11 @@ strong { font-weight: 650; }
 .demo-image { display: flex; justify-content: center; align-items: center; height: 350px; padding: .7rem; border: 1px solid var(--border_color); border-radius: .7rem; background: #f5f7f8; }
 .demo-image img { width: 100%; height: 100%; object-fit: contain; }
 .demo-gallery figcaption { margin-top: .6rem; color: var(--muted_color); font-size: .75rem; }
+.admissions-gallery { grid-template-columns: 1fr; }
+.admissions-gallery .demo-image { height: auto; padding: .45rem; }
+.admissions-gallery .demo-image img { height: auto; }
+.admissions-gallery .demo-image:hover { border-color: var(--accent_color); }
+.admissions-gallery figcaption strong { display: block; margin-bottom: .2rem; }
 .skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.3rem; }
 .skills-grid h3 { font-size: .9rem; margin-bottom: .65rem; }
 .skills-grid p { font-size: .88rem; color: var(--muted_color); margin-bottom: 0; }

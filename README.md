@@ -12,6 +12,11 @@ English: `index.html`; Traditional Chinese: `zh.html`.
 Published on 2026-10-14. GitHub Pages returned `built`, with a completed successful
 deployment, and both language URLs returned HTTP 200. See [delivery evidence](docs/DELIVERY.md).
 
+The owner's four follow-up refinements are recorded under
+[PORTFOLIO-02](docs/tasks.md): portrait, named workplace, a simpler page footer and
+two actual earlier M0 demonstration images. Publication evidence for this update
+is recorded separately in [DELIVERY_02](docs/DELIVERY_02.md).
+
 ## Featured engineering work
 
 - **DocFlow** — AWS event-driven document review: cases, immutable requirements,
@@ -37,8 +42,13 @@ readiness or fabricate users, employment outcomes, performance or admission fact
 - `static/css/style.css`: responsive sidebar and content layout.
 - `static/js/script.js`: lightweight optional theme controls.
 - `static/img/monogram.svg`: original initials mark.
-- `static/img/projects/`: two DocFlow synthetic frontend screenshots, from the
-  owner's September 2026 demonstration. Captions explain their limited scope.
+- `static/img/portrait.jpg`: the owner's original photo, extracted unchanged from
+  a supplied resume and published at the owner's explicit request. No whole PDF
+  or other resume contact details are included.
+- `static/img/projects/`: two DocFlow synthetic frontend screenshots from
+  September 2026 and two admissions synthetic M0 screenshots from 13 October
+  2026. Captions explain scope and dates; the earlier admissions images do not
+  show the newly added school/program search. These two images open at full size.
 - `docs/`: task, change, decision and attribution records.
 
 No third-party analytics, remote fonts, package installation or application build

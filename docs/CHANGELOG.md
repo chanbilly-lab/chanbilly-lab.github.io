@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-10-14 — PORTFOLIO-02
+
+- Purpose: apply the owner's four browser comments to both language pages.
+- Files: index.html, zh.html, static/css/style.css, static/img/portrait.jpg,
+  static/img/projects/admissions-profile-demo.png,
+  static/img/projects/admissions-evidence-demo.png, README.md, docs/tasks.md,
+  docs/CHANGELOG.md, docs/THIRD_PARTY.md and docs/DELIVERY_02.md.
+- Added: owner's original portrait JPEG; two actual 2026-10-13 synthetic M0
+  screenshots with dates/scope captions and native full-size image links.
+- Changed: customer service experience names the Hong Kong Chinese visa service
+  centre workplace. The portrait has display-only object-fit styling; broad
+  screenshots use a readable single-column gallery.
+- Removed: the visible template footer paragraph in both language pages;
+  repository/source attribution is preserved. The initials favicon remains.
+- Bug fixes: none; this is a requested presentation/content refinement.
+- Verification: root and independent agents read the actual source portrait and
+  two screenshots. Assets show no whole resume/contact fields, credentials or
+  genuine student data. The source PDF hash is unchanged. Publication results
+  will be appended only after the update actually completes.
+- Tests: application unit/integration/browser test suites, lint, type checks,
+  local builds and original-project regression are unexecuted. Ordinary hosted
+  retrieval and viewing delivered content are recorded separately.
+- Known issues: admissions images are the earlier synthetic M0 interface, not
+  new school/program search or live admissions evidence. No new architecture,
+  dependency, API, database or deployment decision is introduced.
+
 ## 2026-10-14 — PORTFOLIO-01
 
 - Purpose: developer/IT portfolio based on the requested homepage template and
