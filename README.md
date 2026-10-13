@@ -62,6 +62,37 @@ is needed. Full resume PDFs, phone/address details and private source research a
 not published here. Relevant supplied IT resumes receive a homepage link in new
 local PDF copies; their original text and layouts are preserved.
 
+## Contribution snake
+
+Both language pages display an animated SVG from the owner's GitHub contribution
+calendar. `.github/workflows/snake.yml` generates light/dark SVGs daily at
+00:00 UTC (08:00 Asia/Hong_Kong), and supports manual `workflow_dispatch`.
+Scheduled Actions can be delayed and depend on GitHub keeping the workflow active.
+
+Only generated files in `dist` are published to the separate `output` branch.
+The existing Pages source remains `codex/portfolio`; it is not replaced by that
+branch. The publishing action keeps output history and uses the GitHub Actions
+bot identity. No personal access token or additional secret is required.
+
+Generator v3 and publisher v5 are pinned to verified full commit SHAs. The
+publisher is updated from the supplied v3 example because its current v5 supports
+the hosted runner's Node 24 runtime. See [ADR-P03](docs/DECISIONS.md).
+
+The website follows its existing theme toggle for light/dark SVG selection,
+supports horizontal scrolling on narrow screens, and hides the animated SVG for
+visitors who request reduced motion. A GitHub calendar link remains available.
+The README also embeds both palettes using GitHub's theme-aware picture syntax.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chanbilly-lab/chanbilly-lab.github.io/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chanbilly-lab/chanbilly-lab.github.io/output/github-snake.svg">
+  <img alt="Snake animation of chanbilly-lab's GitHub contribution calendar" src="https://raw.githubusercontent.com/chanbilly-lab/chanbilly-lab.github.io/output/github-snake.svg">
+</picture>
+
+First-generation and publication results are recorded in
+[DELIVERY_04](docs/DELIVERY_04.md). Application tests remain unexecuted; running
+the requested animation generator is a publishing operation.
+
 ## Maintain and publish
 
 Edit both language pages together and keep project status statements accurate.

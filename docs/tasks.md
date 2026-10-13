@@ -1,5 +1,33 @@
 # Portfolio tasks
 
+## PORTFOLIO-04 — Daily contribution snake animation
+
+Status: [~] In progress (2026-10-14); source complete, first generation pending.
+
+Goal: generate the owner's contribution snake daily and display light/dark
+versions in the English/Traditional Chinese site and repository README.
+
+Scope: .github/workflows/snake.yml, index.html, zh.html, static/css/style.css,
+static/js/script.js, README.md, docs/tasks.md, docs/CHANGELOG.md,
+docs/DECISIONS.md and docs/DELIVERY_04.md. Baseline is
+`e57e9e7481fa04be41cd48a18487972a5757f68d`; working tree and index were clean.
+
+Acceptance: daily UTC 00:00 schedule plus manual dispatch; generated light/dark
+SVGs on a separate output branch with normal history-preserving publication;
+existing Pages source unchanged; website theme selects the corresponding SVG;
+reduced-motion visitors have a calendar link without displayed animation;
+first manual generation and website publication have actual success records.
+
+Verification: source/action definition review, requested first-generation run,
+native Pages publication, ordinary hosted retrieval and viewing delivered
+content. Application tests, lint, type checks and local builds are unexecuted
+(owner's instruction). Future scheduled runs and all accessibility/device cases
+cannot be claimed as observed.
+
+Known limits: GitHub schedules may be delayed or disabled by inactivity; SVG
+delivery depends on GitHub's raw-content host. Private source-publication and
+old homepage metadata cleanup remain separate pending work.
+
 ## PORTFOLIO-03 — Simpler copy and clearer project features
 
 Status: Completed (2026-10-14).

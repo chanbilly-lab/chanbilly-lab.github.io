@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-10-14 — PORTFOLIO-04
+
+- Purpose: add the requested daily contribution snake animation.
+- Files: .github/workflows/snake.yml, index.html, zh.html,
+  static/css/style.css, static/js/script.js, README.md, docs/tasks.md,
+  docs/CHANGELOG.md, docs/DECISIONS.md and docs/DELIVERY_04.md.
+- Added: scheduled/manual SVG generation, separate output publication, a
+  bilingual contribution section and a theme-aware README picture.
+- Changed: existing theme selection also selects the animation's light/dark
+  image; narrow displays can scroll the calendar; reduced-motion users get a
+  calendar link without the displayed animation.
+- Removed: none.
+- Bug fixes: none; this is a requested feature addition.
+- Verification: official action definitions and source reviewed; Actions are
+  enabled and output did not yet exist. First generation and Pages publication
+  are pending and will be recorded in docs/DELIVERY_04.md.
+- Tests: application unit/integration/browser test suites, lint, type checks,
+  local builds and original-project regression unexecuted (owner's instruction).
+  The requested animation generation is a publication operation.
+- Known issues: daily runs can be delayed or disabled by GitHub inactivity;
+  future schedule execution, every device and reduced-motion behavior are not
+  yet observed. Prior private-email history and application-publication approval
+  remain separate follow-ups. No application code or database changes.
+
 ## 2026-10-14 — PORTFOLIO-03
 
 - Purpose: simplify the homepage copy and foreground actual project features in
