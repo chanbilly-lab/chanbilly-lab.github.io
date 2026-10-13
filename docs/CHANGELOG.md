@@ -15,15 +15,19 @@
   and the final admission-threshold comparison sentence. Provincial cutoff
   terminology and existing synthetic-image captions are retained.
 - Bug fixes: none; this is a requested content refinement.
-- Verification: source and diff review performed; native publication and ordinary
-  hosted retrieval/viewing are pending. Actual results will be recorded in
-  docs/DELIVERY_03.md before marking the task complete.
+- Verification: source and diff review performed. Source `1c6e393` was pushed
+  normally; its native Pages deployment completed successfully and Pages returned
+  `built`. Both language URLs returned HTTP 200 with the new text; the refreshed
+  in-app page shows the requested changes. Evidence is in docs/DELIVERY_03.md.
 - Tests: unit/integration/browser test suites, lint, type checks, local builds
   and original application regression unexecuted (owner's instruction).
 - Known issues: the local synthetic demo is supported by earlier actual startup
   evidence; full real-data public deployment readiness is not established. The
   separate source-publication approval is still pending. No new dependency,
   architecture, API, database or deployment decision is introduced.
+  Upload review found eight private-email occurrences in earlier homepage commit
+  metadata; new commits use GitHub noreply. Old-history cleanup is a separate
+  privacy follow-up and is not performed by this copy task.
 
 ## 2026-10-14 — PORTFOLIO-02
 

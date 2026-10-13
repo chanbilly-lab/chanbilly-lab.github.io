@@ -2,7 +2,7 @@
 
 ## PORTFOLIO-03 — Simpler copy and clearer project features
 
-Status: [~] In progress (2026-10-14); source edited, publication pending.
+Status: Completed (2026-10-14).
 
 Goal: apply the owner's six browser comments to both languages, simplify the
 personal introduction and highlight concrete admissions features.
@@ -22,10 +22,19 @@ Verification: source/diff review, native hosting deployment status, ordinary
 hosted page retrieval and viewing the changed content. Application tests, lint,
 type checks and local builds remain unexecuted (owner's instruction).
 
+Actual results: source `1c6e393` was pushed normally and its native Pages
+deployment completed successfully. Both language URLs returned HTTP 200 with the
+new introduction and feature box. The refreshed in-app page shows the requested
+deletions and new Traditional Chinese text. See [DELIVERY_03](DELIVERY_03.md).
+
 Known limits: actual evidence supports the synthetic local core demo; real
 directory coverage, live model calls and public admissions service are not
 established. The separate privacy repository-promotion approval remains pending.
 No application repository, resume, asset or hosting architecture changes here.
+
+Upload review also found eight private-email occurrences in earlier homepage
+author/committer metadata. This task's commits use the GitHub noreply identity;
+old-history cleanup is recorded as a separate privacy follow-up, not performed.
 
 ## PORTFOLIO-02 — Owner's four page refinements
 
