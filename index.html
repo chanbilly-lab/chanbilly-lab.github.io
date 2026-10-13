@@ -50,7 +50,7 @@
             <header class="hero">
                 <p class="role-line">Hong Kong <span aria-hidden="true"></span> Python · TypeScript · Cloud</p>
                 <h1 class="welcome">Chen Zhi Peng.<br><span class="gradientText">Software Developer.</span></h1>
-                <p class="description">I build web applications and backend workflows that make complex tasks easier to follow. My work connects clear requirements, practical interfaces and traceable decisions.</p>
+                <p class="description">I use Python and TypeScript to build websites and applications that help people organise information, handle documents and make everyday work easier.</p>
                 <div class="iconContainer">
                     <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
                     <a class="button button-secondary" href="https://github.com/chanbilly-lab">GitHub profile <span aria-hidden="true">↗</span></a>
@@ -97,8 +97,6 @@
                         <div class="project-scope">
                             <h4>Delivery status</h4>
                             <p>The frontend demonstration uses synthetic data and in-memory state. It is separate from the backend.</p>
-                            <p>Five limited AWS backend journeys were completed historically. Remaining cloud acceptance work is unfinished; the cloud resources have been retired.</p>
-                            <p>This is a development case study. There is no live service or production-readiness claim.</p>
                         </div>
                     </div>
                     <div class="demo-gallery" aria-label="Synthetic frontend examples">
@@ -111,7 +109,6 @@
                             <figcaption>Review interface — synthetic frontend demonstration.</figcaption>
                         </figure>
                     </div>
-                    <p class="source-note">September 2026 demonstration screenshots: all names, organisations and case identifiers are fictional. The interface uses in-memory state and is not connected to real authentication or upload APIs. It is not a live cloud application. Project source is private; a code walkthrough can be arranged on request.</p>
                 </article>
                 <article class="case-study" id="admissions" aria-labelledby="admissions-title">
                     <p class="eyebrow case-label">02 / Evidence-based advising</p>
@@ -125,16 +122,16 @@
                             <h4>Implementation focus</h4>
                             <ul>
                                 <li><strong>Deterministic decisions.</strong> Four distinct eligibility states: eligible, ineligible, conditional and unknown. Missing grades remain unknown without a documented deferral policy.</li>
-                                <li><strong>Source-linked reference data.</strong> A local reference batch contains three 2026 Zhejiang provincial cutoff records, with a source and review trail. These are not university admission thresholds.</li>
+                                <li><strong>Source-linked reference data.</strong> A local reference batch contains three 2026 Zhejiang provincial cutoff records, with a source and review trail.</li>
                                 <li><strong>Explicit selections.</strong> School and program search replaces manual identifiers in the source implementation. The formal directory is still empty.</li>
                                 <li><strong>Practical architecture.</strong> Vue 3/TypeScript/Vite, Python/FastAPI/Pydantic and PostgreSQL, with a replaceable model interface.</li>
                             </ul>
                         </div>
                         <div class="project-scope">
-                            <h4>Delivery status</h4>
-                            <p>The synthetic M0 core flow has been run locally. Other completed source tasks do not imply completed runtime acceptance.</p>
-                            <p>Annual update scheduling only creates pending collection/review requests and is disabled by default. Live model calls and public service remain off.</p>
-                            <p>No admission probability estimates, automatic applications or fabricated missing school data.</p>
+                            <h4>Core features and demo</h4>
+                            <p>Run the synthetic demo locally to explore the complete core flow: student profiles, program selection, eligibility checks, evidence and draft plans.</p>
+                            <p>Explicit rules distinguish eligible, ineligible, conditional and unknown results. View the evidence behind each decision, identify missing information and organise next steps.</p>
+                            <p>The core demo runs without a model API key, making it easy to present the features and continue development.</p>
                         </div>
                     </div>
                     <div class="demo-gallery admissions-gallery" aria-label="Earlier synthetic M0 demonstration screenshots">

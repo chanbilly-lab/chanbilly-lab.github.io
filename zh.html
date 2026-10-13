@@ -50,7 +50,7 @@
             <header class="hero">
                 <p class="role-line">香港 <span aria-hidden="true"></span> Python · TypeScript · Cloud</p>
                 <h1 class="welcome">陳志鵬。<br><span class="gradientText">軟件開發。</span></h1>
-                <p class="description">我開發 Web 應用與後端工作流程，讓複雜的任務更容易理解和執行。從釐清需求、設計介面到保留決策依據，我重視實用與可追溯的實作。</p>
+                <p class="description">我用 Python 和 TypeScript 開發網站與應用，幫助使用者整理資料、處理文件，讓日常工作更方便。</p>
                 <div class="iconContainer">
                     <a class="button button-primary" href="#projects">查看我的項目 <span aria-hidden="true">↘</span></a>
                     <a class="button button-secondary" href="https://github.com/chanbilly-lab">GitHub 主頁 <span aria-hidden="true">↗</span></a>
@@ -97,8 +97,6 @@
                         <div class="project-scope">
                             <h4>交付狀態</h4>
                             <p>前端示範使用合成資料及記憶體狀態，與後端分開。</p>
-                            <p>歷史上已完成五條有限範圍的 AWS 後端流程。其他雲端驗收尚未完成；雲端資源現已退役。</p>
-                            <p>這是開發案例，目前沒有線上服務，也不宣稱已達正式生產環境要求。</p>
                         </div>
                     </div>
                     <div class="demo-gallery" aria-label="合成資料前端示範">
@@ -111,7 +109,6 @@
                             <figcaption>審核介面 — 合成資料前端示範。</figcaption>
                         </figure>
                     </div>
-                    <p class="source-note">2026 年 9 月示範截圖：人名、機構與案件編號全部虛構。介面使用記憶體狀態，未接真實認證或上傳 API，也不是線上雲端應用。項目源碼為私有，可按需要安排程式碼講解。</p>
                 </article>
                 <article class="case-study" id="admissions" aria-labelledby="admissions-title">
                     <p class="eyebrow case-label">02 / 有證據依據的諮詢</p>
@@ -125,16 +122,16 @@
                             <h4>實作重點</h4>
                             <ul>
                                 <li><strong>確定性判斷。</strong>明確區分 eligible、ineligible、conditional 及 unknown 四種資格結果。沒有後補政策依據時，缺少成績保持 unknown。</li>
-                                <li><strong>來源可追溯的參考資料。</strong>本機批次包含三條浙江 2026 年省級控制線，保留來源與人工複核鏈；它們不是高校錄取分數線。</li>
+                                <li><strong>來源可追溯的參考資料。</strong>本機批次包含三條浙江 2026 年省級控制線，保留來源與人工複核鏈。</li>
                                 <li><strong>明確的選擇流程。</strong>學校與專業搜尋已在源碼中替代手填識別碼，正式目錄仍為空。</li>
                                 <li><strong>實用的技術組合。</strong>Vue 3/TypeScript/Vite、Python/FastAPI/Pydantic、PostgreSQL，並保留可替換的模型介面。</li>
                             </ul>
                         </div>
                         <div class="project-scope">
-                            <h4>交付狀態</h4>
-                            <p>合成 M0 核心流程已在本機走通。其他任務的源碼完成，不代表運行驗收已全部完成。</p>
-                            <p>年度更新只產生待採集與待審核請求，預設關閉。真實模型調用與公眾服務仍未啟用。</p>
-                            <p>不估算錄取機率、不自動提交申請，也不編造缺失的學校資料。</p>
+                            <h4>核心功能與演示</h4>
+                            <p>可在本機啟動合成演示，完整體驗學生畫像、項目選擇、資格檢查、證據查看與計劃草案。</p>
+                            <p>用明確規則檢查資格，分清符合、不符合、有條件及資料不足；查看每項判斷的依據，整理需要補充的資料與下一步行動。</p>
+                            <p>演示核心流程無需模型 API 密鑰，方便展示功能及進一步開發。</p>
                         </div>
                     </div>
                     <div class="demo-gallery admissions-gallery" aria-label="舊版合成 M0 演示截圖">

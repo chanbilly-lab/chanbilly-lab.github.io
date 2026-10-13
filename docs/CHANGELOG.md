@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-10-14 — PORTFOLIO-03
+
+- Purpose: simplify the homepage copy and foreground actual project features in
+  response to six browser comments.
+- Files: index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md and
+  docs/DELIVERY_03.md.
+- Added: a short admissions feature box covering the complete local synthetic
+  core flow, four eligibility states, evidence, missing information, next steps
+  and operation without a model API key.
+- Changed: both personal introductions use everyday language; admissions
+  delivery wording now describes demonstrable features and local demo use.
+- Removed: the two selected DocFlow status paragraphs, its long screenshot note
+  and the final admission-threshold comparison sentence. Provincial cutoff
+  terminology and existing synthetic-image captions are retained.
+- Bug fixes: none; this is a requested content refinement.
+- Verification: source and diff review performed; native publication and ordinary
+  hosted retrieval/viewing are pending. Actual results will be recorded in
+  docs/DELIVERY_03.md before marking the task complete.
+- Tests: unit/integration/browser test suites, lint, type checks, local builds
+  and original application regression unexecuted (owner's instruction).
+- Known issues: the local synthetic demo is supported by earlier actual startup
+  evidence; full real-data public deployment readiness is not established. The
+  separate source-publication approval is still pending. No new dependency,
+  architecture, API, database or deployment decision is introduced.
+
 ## 2026-10-14 — PORTFOLIO-02
 
 - Purpose: apply the owner's four browser comments to both language pages.

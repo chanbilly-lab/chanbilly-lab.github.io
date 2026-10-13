@@ -1,5 +1,32 @@
 # Portfolio tasks
 
+## PORTFOLIO-03 — Simpler copy and clearer project features
+
+Status: [~] In progress (2026-10-14); source edited, publication pending.
+
+Goal: apply the owner's six browser comments to both languages, simplify the
+personal introduction and highlight concrete admissions features.
+
+Scope: index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md and
+docs/DELIVERY_03.md. Baseline is
+`bbf65308ebd61782dcfc9465fd922889edd69551`; working tree and index were clean.
+
+Acceptance: simpler English and Traditional Chinese introductions; the two
+specified DocFlow status paragraphs and its long screenshot note removed; the
+specified final cutoff sentence removed while keeping provincial terminology;
+admissions box explains profiles, options, four-state checks, evidence, draft
+plans and key-free local demo use. Actual public-service readiness is not
+invented. GitHub Pages must publish the edited source successfully.
+
+Verification: source/diff review, native hosting deployment status, ordinary
+hosted page retrieval and viewing the changed content. Application tests, lint,
+type checks and local builds remain unexecuted (owner's instruction).
+
+Known limits: actual evidence supports the synthetic local core demo; real
+directory coverage, live model calls and public admissions service are not
+established. The separate privacy repository-promotion approval remains pending.
+No application repository, resume, asset or hosting architecture changes here.
+
 ## PORTFOLIO-02 — Owner's four page refinements
 
 Status: Completed (2026-10-14).

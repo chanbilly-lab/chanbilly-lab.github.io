@@ -17,6 +17,12 @@ The owner's four follow-up refinements are recorded under
 two actual earlier M0 demonstration images. Publication evidence for this update
 is recorded separately in [DELIVERY_02](docs/DELIVERY_02.md).
 
+The six follow-up copy comments are handled under
+[PORTFOLIO-03](docs/DELIVERY_03.md). Both languages use a simpler introduction,
+remove the specified DocFlow paragraphs and describe admissions through its
+actual local synthetic demo features. Provincial reference data remains labelled
+as provincial records; the copy does not promise a ready public admissions service.
+
 ## Featured engineering work
 
 - **DocFlow** — AWS event-driven document review: cases, immutable requirements,
