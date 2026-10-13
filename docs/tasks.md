@@ -2,7 +2,7 @@
 
 ## PORTFOLIO-05 — Palette inspired by the live Zyyo reference
 
-Status: [~] In progress (2026-10-14); source edited, publication pending.
+Status: Completed (2026-10-14).
 
 Goal: adapt the requested reference's light/dark color direction to the existing
 portfolio, without changing its content, layout, portrait or contribution job.
@@ -22,6 +22,12 @@ Verification: actual reference screenshot and source colors reviewed; source/dif
 review, native hosting publication, ordinary hosted retrieval and presentation
 viewing. Application tests, lint, type checks and local builds remain unexecuted
 (owner's instruction). No automated contrast or compatibility claim is made.
+
+Actual results: source bb778f5 published successfully through native Pages run
+38453491650. Both language pages, both versioned stylesheets and the versioned
+favicon returned HTTP 200. Light and dark palettes were actually viewed and
+saved as presentation screenshots; the original dark preference was restored
+and temporary reference/preview tabs closed. See [DELIVERY_05](DELIVERY_05.md).
 
 Known limits: all devices, forced-color/print behavior and quantified contrast
 remain unverified. Earlier private-email history and application-publication

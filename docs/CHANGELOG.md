@@ -16,8 +16,10 @@
 - Bug fixes: none observed; fallbacks and versioned links are preventive source
   measures, not verified compatibility results.
 - Verification: root viewed the live reference and an independent agent read its
-  actual inline/style.css colors. Edited source is reviewed; publication and
-  delivered presentation are pending, to be recorded in docs/DELIVERY_05.md.
+  actual inline/style.css colors. Source bb778f5 published successfully through
+  native Pages run 38453491650. Both languages, both versioned stylesheets and
+  favicon returned HTTP 200. Light/dark presentation was actually viewed and
+  saved; the original dark preference was restored. See docs/DELIVERY_05.md.
 - Tests: application unit/integration/browser test suites, lint, type checks,
   local builds and original-project regression unexecuted (owner's instruction).
 - Known issues: broad device/print/forced-color behavior and quantified contrast

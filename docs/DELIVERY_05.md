@@ -35,8 +35,30 @@ DECISIONS.md therefore needs no new architecture decision for this color edit.
 
 ## Publication and limits
 
-Source publication, ordinary hosted retrieval and delivered presentation are
-pending. Record actual results before marking the task complete.
+Source `bb778f50e8e76704c83f866231bbf09d16a69e7e` was pushed normally.
+Native Pages deployment
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38453491650
+completed successfully (the deploy step took 2m20s). Pages returned built and
+continues to serve codex/portfolio at /.
+
+Ordinary retrievals with Cache-Control: no-cache:
+
+| Asset | HTTP | UTF-8 response bytes | Content type |
+| --- | --- | --- | --- |
+| English `/` | 200 | 18,142 | text/html; charset=utf-8 |
+| Traditional Chinese `/zh.html` | 200 | 17,257 | text/html; charset=utf-8 |
+| versioned root.css | 200 | 2,013 | text/css; charset=utf-8 |
+| versioned style.css | 200 | 13,796 | text/css; charset=utf-8 |
+| versioned monogram.svg | 200 | 532 | image/svg+xml |
+
+Both delivered palettes were actually viewed in a temporary ordinary preview.
+The dark page shows charcoal background, purple action, muted gray text, neutral
+cards and violet/pink/cyan title. Using the existing theme control for presentation,
+the light page shows the pale blue/white background, black/gray text, purple
+action, white cards and violet/red/deeper-cyan title. Both actual screenshots are
+kept in ignored cache. The original dark preference was restored, temporary tabs
+closed and the owner's existing page refreshed. No formal browser test suite or
+accessibility compliance result is claimed.
 
 No application unit/integration/browser test suite, lint, type check, local build
 or original-project regression is executed (owner's instruction). Source/reference
