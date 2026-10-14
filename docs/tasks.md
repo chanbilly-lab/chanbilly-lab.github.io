@@ -1,5 +1,28 @@
 # Portfolio tasks
 
+## PRIVACY-PUBLISH-01 — Link the clean public application sources
+
+Status: [~] In progress (2026-10-14); application repositories public,
+homepage publication pending.
+
+Goal: complete the owner's approved private-history/clean-public-source strategy
+and update the portfolio's source audience statements and project links.
+
+Scope here: index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md,
+docs/DECISIONS.md and docs/SOURCE_PUBLICATION.md. Baseline 72d6025, clean tree/index.
+
+Acceptance: both language project cards link the actual new public repositories;
+source-private wording is updated without claiming live application service.
+Native Pages publication and ordinary hosted retrieval must confirm the links.
+Original application repositories remain PRIVATE/read-only archives; no old
+history is imported into the fresh public repositories. Detailed source privacy
+and handoff results live in each application's report.
+
+Checks: source/diff and actual repository/hosting reads. Application tests, lint,
+type checks and local builds are unexecuted (owner's instruction). The homepage's
+eight earlier private-email metadata occurrences remain a separate follow-up;
+this task's approval names the two application repositories only.
+
 ## PORTFOLIO-05 — Palette inspired by the live Zyyo reference
 
 Status: Completed (2026-10-14).

@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-10-14 — PRIVACY-PUBLISH-01
+
+- Purpose: reflect the owner's approved clean public source publication.
+- Files: index.html, zh.html, README.md, docs/tasks.md, docs/CHANGELOG.md,
+  docs/DECISIONS.md and docs/SOURCE_PUBLICATION.md.
+- Added: actual GitHub source links for both project cards in both languages;
+  source publication and clean-checkout handoff notes.
+- Changed: private-source wording to reviewed public-source availability; preserve
+  existing case studies, demo scopes, color palette, images and snake workflow.
+- Removed: stale claims that the application source repositories remain private.
+- Bug fixes: no application behavior changes.
+- Checks: new application repo identities, clean history/tree, ordinary push and
+  anonymous public access verified; private archives remain read-only and their
+  old Git objects are unavailable under new public IDs. Homepage publication is
+  pending, to be recorded in docs/SOURCE_PUBLICATION.md.
+- Tests: application tests, lint, type checks and local builds unexecuted
+  (owner's instruction); privacy scans and publication reads are separate actions.
+- Known issues: earlier homepage email metadata still needs a separate authorised
+  cleanup. Public source does not establish live deployment or production readiness.
+
 ## 2026-10-14 — PORTFOLIO-05
 
 - Purpose: adapt the homepage palette to the owner's live zyyo.cc reference.

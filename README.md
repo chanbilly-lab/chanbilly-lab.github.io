@@ -35,7 +35,7 @@ retained. See [PORTFOLIO-05](docs/DELIVERY_05.md).
 - **DocFlow** — AWS event-driven document review: cases, immutable requirements,
   private files, human review, transactional audit/outbox and asynchronous
   notifications. Its React interface is a synthetic in-memory demonstration.
-  A limited historical AWS backend session is documented in the private project;
+  A limited historical AWS backend session is documented in the project;
   resources have been retired, and full cloud acceptance was not completed.
 - **Admissions Planning Workspace** — Vue 3, FastAPI and PostgreSQL modular
   monolith. A synthetic demo covers profile confirmation, project selection,
@@ -43,10 +43,14 @@ retained. See [PORTFOLIO-05](docs/DELIVERY_05.md).
   Zhejiang reference-data loop exists locally; the national directory and public
   service are not enabled. New search-selection source is unverified.
 
-The application repositories remain private. This repository publishes selected
-portfolio descriptions and synthetic screenshots, not private application code,
-cloud evidence or credentials. Project descriptions do not claim production
-readiness or fabricate users, employment outcomes, performance or admission facts.
+The two application repositories now publish privacy-reviewed clean source:
+[DocFlow](https://github.com/chanbilly-lab/docflow) and
+[admissions](https://github.com/chanbilly-lab/study-admissions-agent).
+The complete original histories remain in private read-only archives. This
+portfolio links the public source and publishes selected synthetic screenshots;
+unsanitized evidence, private reports, resumes and credentials are not included.
+Descriptions do not claim production readiness or fabricate users, employment
+outcomes, performance or admission facts. See [source publication](docs/SOURCE_PUBLICATION.md).
 
 ## Content and assets
 

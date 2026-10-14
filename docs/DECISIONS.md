@@ -1,5 +1,25 @@
 # Decisions
 
+## ADR-P04 — Link reviewed public sources with private history archives
+
+- Date/status: 2026-10-14; explicitly approved by the owner and implemented for
+  the two application repositories.
+- Background: earlier application histories contain private email metadata and
+  operational details. The owner requested redaction, public source and retention
+  of the private originals.
+- Decision: retain original repository IDs as renamed PRIVATE/read-only archives;
+  create fresh repositories at the original names using reviewed clean source.
+  This supersedes ADR-P01's private application-source audience only. The
+  portfolio links both new public sources; no service deployment is implied.
+- Reason: preserve work/history without force-pushing or publicly retaining old
+  sensitive objects. Old checkout/mirror origins point to archives; public work
+  uses separate clean directories and GitHub noreply commits.
+- Alternatives: publish an edited HEAD over old history, or force-rewrite refs.
+  Neither satisfies the approved preservation strategy.
+- Impact: source links and current wording change. Colors, demos, resumes,
+  workflow and runtime/production boundaries are unchanged. The homepage's own
+  old email metadata is outside the two-repository rename approval.
+
 ## ADR-P03 — Generate contribution SVGs on a separate branch
 
 - Date: 2026-10-14.
