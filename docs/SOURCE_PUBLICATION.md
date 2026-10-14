@@ -32,7 +32,13 @@ were absent; remaining matches are generic project paths and one public
 dependency-maintainer contact. Private raw reports/maps remain outside all repos.
 
 Both portfolio pages add GitHub source links and update private-source wording.
-Homepage Pages publication/retrieval evidence is pending.
+Homepage source 0f79394ae98cfe3f16ff9feaa3a2deb16398a7b8 published successfully:
+https://github.com/chanbilly-lab/chanbilly-lab.github.io/actions/runs/38571006874.
+Ordinary Cache-Control:no-cache retrievals returned HTTP 200: English 18,521
+UTF-8 bytes and Traditional Chinese 17,658. Returned HTML and the actually loaded
+project cards show both public source links. The initial preview navigation timed
+out; its completed tab was then bound, read and captured. Presentation evidence
+is kept in ignored cache; no browser test suite result is claimed.
 
 No application tests, lint, type check, local build, AWS call or application
 deployment occurred. Public source does not establish live service or production

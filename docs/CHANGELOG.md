@@ -13,8 +13,10 @@
 - Bug fixes: no application behavior changes.
 - Checks: new application repo identities, clean history/tree, ordinary push and
   anonymous public access verified; private archives remain read-only and their
-  old Git objects are unavailable under new public IDs. Homepage publication is
-  pending, to be recorded in docs/SOURCE_PUBLICATION.md.
+  original-HEAD Git object probes are unavailable under new public IDs. Homepage
+  source 0f79394 published successfully via Pages run 38571006874; both languages
+  returned HTTP 200 with both source links. Actual project cards were viewed and
+  captured after the first preview navigation timed out and then loaded.
 - Tests: application tests, lint, type checks and local builds unexecuted
   (owner's instruction); privacy scans and publication reads are separate actions.
 - Known issues: earlier homepage email metadata still needs a separate authorised

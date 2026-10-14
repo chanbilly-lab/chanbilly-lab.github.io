@@ -2,8 +2,7 @@
 
 ## PRIVACY-PUBLISH-01 — Link the clean public application sources
 
-Status: [~] In progress (2026-10-14); application repositories public,
-homepage publication pending.
+Status: Completed (2026-10-14).
 
 Goal: complete the owner's approved private-history/clean-public-source strategy
 and update the portfolio's source audience statements and project links.
@@ -22,6 +21,12 @@ Checks: source/diff and actual repository/hosting reads. Application tests, lint
 type checks and local builds are unexecuted (owner's instruction). The homepage's
 eight earlier private-email metadata occurrences remain a separate follow-up;
 this task's approval names the two application repositories only.
+
+Actual results: source 0f79394 published successfully in native Pages run
+38571006874. Both language pages returned HTTP 200 and contain both public source
+links. The loaded in-app project cards actually show the links; the initial
+preview navigation timed out, then its completed tab was read and captured.
+See [SOURCE_PUBLICATION](SOURCE_PUBLICATION.md).
 
 ## PORTFOLIO-05 — Palette inspired by the live Zyyo reference
 
